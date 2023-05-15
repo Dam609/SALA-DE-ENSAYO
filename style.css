@@ -1,0 +1,194 @@
+* {
+    margin:1;
+    padding:1;
+    outline:0;
+    box-sizing:border-box;
+}
+
+/* UTILIZANDO FLEXBOX */
+
+body
+{
+    background-color:white;
+}
+.logo {
+    padding:5px;
+    margin:3px;
+    box-sizing:border-box;
+    align-items:center;
+
+
+    
+}
+
+.menu {
+    background-color:black;
+    weight:auto;
+    width:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-botton: 5px solid green;
+    box-shadow: 3px 0 8px rgb (0 0, 0, 1);
+    border-right: 1px solid grey;
+    padding-rigth:5px;
+
+}
+.logo label a decorado href {
+    color:yellow;
+    text-decoration:none;
+    font-size:25px;
+}
+.menu_items {
+    display:flex;
+    list-style-type:none;
+    margin:10px;
+}
+.menu_items l1 {
+    border-radius:3px;
+    margin:0 3px;
+  
+}
+.decorado {
+    padding: 15px;
+    font-size:20px;
+    display:block;
+    color:white;
+    text-decoration :none;
+}
+@font-face {
+     font-family: lato ;
+     src: url:("../")
+
+}
+
+/* UTILAZANDO GRIDS EN LA PAGINA SERVICIOS */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contenedor-padre {
+    background-color:grey;
+    border: 50px;
+    font-size: 30px;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:50px 100px;
+    justify-content:center;
+    
+
+}
+
+.contenedor-hijos {
+    background-color:white;
+    height:350px;
+    display:grid;
+    justify-content:center;
+}
+
+/* UTILIZANDO PSEUDOCLASES */
+
+.menu ul li:hover {
+    background-color:grey;
+    color:green;
+    padding:auto;
+    border-radius:4px;
+}
+.menu ul li:active {
+    background-color:aquamarine;
+}
+
+/* UTILIZANDO MEDIAS QUERIES */
+
+@media (min-width:600px) {
+    .menu {
+        display:flex;
+    }
+    .menu-mobile {
+        display:none;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
