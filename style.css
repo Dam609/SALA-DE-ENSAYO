@@ -1,7 +1,7 @@
 * {
-    margin:1;
-    padding:1;
-    outline:0;
+    margin:0;
+    padding:0;
+    outline: 5px;
     box-sizing:border-box;
 }
 
@@ -12,13 +12,17 @@ body
     background-color:white;
 }
 .logo {
+
     padding:5px;
     margin:3px;
     box-sizing:border-box;
     align-items:center;
 
+}
 
-    
+.img {
+    width:240px;
+    height:160px;
 }
 
 .menu {
@@ -29,11 +33,13 @@ body
     justify-content:space-between;
     align-items:center;
     border-botton: 5px solid green;
-    box-shadow: 3px 0 8px rgb (0 0, 0, 1);
+    box-shadow: 3px 0 8px grey (0 0, 0, 0,6);
     border-right: 1px solid grey;
     padding-rigth:5px;
 
 }
+
+
 .logo label a decorado href {
     color:yellow;
     text-decoration:none;
@@ -62,47 +68,74 @@ body
 
 }
 
-/* UTILAZANDO GRIDS EN LA PAGINA SERVICIOS */
+/* UTILAZANDO FLEX EN LA PAGINA SERVICIOS */
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0px;;
+    padding: 0px;;
     box-sizing: border-box;
 }
 
-.contenedor-padre {
-    background-color:grey;
-    border: 50px;
-    font-size: 30px;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:50px 100px;
-    justify-content:center;
-    
+.cards {
+   display: flex;
+   flex-direction: row;
 
 }
 
-.contenedor-hijos {
-    background-color:white;
-    height:350px;
-    display:grid;
-    justify-content:center;
+.card {
+
+    border: 2px solid grey;
+    margin: 7px;
+    padding:5px;
+    background-color:#0CCBD4 ;
+    height: 300px;
+    justify-content:space-between;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px grey;
+
+}
+
+.card:hover {
+    background-color:black;
+    color:white;
+    transform: scale (1,03)
+}
+
+.boton {
+
+    background-color:grey;
+    padding:3px;
+    margin: 20px 50px;
+    color:white;
+    justify-content:right;
+    display:block;
+    text-decoration:none;
+    border-radius:10px;
+    
+
+
+
+}
+.imghome {
+    width:1919px;
+    height:700px;
 }
 
 /* UTILIZANDO PSEUDOCLASES */
 
 .menu ul li:hover {
     background-color:grey;
-    color:green;
-    padding:auto;
-    border-radius:4px;
+    padding:3px;
+    border-radius:20px;
 }
 .menu ul li:active {
-    background-color:aquamarine;
+    background-color:#0CCBD4 ;
 }
 
 /* UTILIZANDO MEDIAS QUERIES */
 
-@media (min-width:600px) {
+@media (min-width: 600px 800px) {
+
     .menu {
         display:flex;
     }
