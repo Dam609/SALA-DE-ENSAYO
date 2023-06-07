@@ -134,7 +134,7 @@ body
 
 /* UTILIZANDO MEDIAS QUERIES */
 
-@media (min-width: 600px 800px) {
+@media (min-width: 320px 800px) {
 
     .menu {
         display:flex;
