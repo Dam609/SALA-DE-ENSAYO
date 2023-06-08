@@ -1,3 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 5px;
+  box-sizing: border-box;
+}
 
+.body {
+  background-color: white;
+}
 
-/*# sourceMappingURL=main.css.map */
+.logo {
+  padding: 5px;
+  margin: 3px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.img {
+  width: 240px;
+  height: 160px;
+}
+
+.menu {
+  background-color: black;
+  weight: auto;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-botton: 5px solid green;
+  box-shadow: 3px 0 8px grey 0 0, 0, 0, 6;
+  border-right: 1px solid grey;
+  padding-rigth: 5px;
+}
+
+.logo label a decorado href {
+  color: yellow;
+  text-decoration: none;
+  font-size: 25px;
+}
+.logo label a decorado href items {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+}
+.logo label a decorado href items l1 {
+  border-radius: 3px;
+  margin: 0 3px;
+}
