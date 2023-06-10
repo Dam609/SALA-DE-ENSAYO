@@ -7,7 +7,7 @@
 
 /* UTILIZANDO FLEXBOX */
 
-body
+.body
 {
     background-color:white;
 }
@@ -134,16 +134,53 @@ body
 
 /* UTILIZANDO MEDIAS QUERIES */
 
-@media (min-width: 600px 800px) {
-
-    .menu {
-        display:flex;
-    }
-    .menu-mobile {
-        display:none;
-
-    }
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .links {
+    justify-content: flex-start;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
 }
+/*FOOTER*/
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+
+
 
 
 
